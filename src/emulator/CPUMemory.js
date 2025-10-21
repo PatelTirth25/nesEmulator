@@ -58,6 +58,10 @@ export default class CPUMemory {
     }
 
     write(address, value) {
+
+        // Robo-Ninja Game Hack ( makes players life to be constant 2 )
+        // if (address == 0x04A2) return this.ram[address] = 2
+
         // 🐏 WRAM (2 KiB)
         if (address >= 0x0000 && address <= 0x07ff)
             this.ram[address] = value;
