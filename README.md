@@ -4,7 +4,13 @@ A simple NES emulator built with JavaScript and a React + Vite + TypeScript fron
 
 ## Run
 
-Install dependencies:
+```bash
+git clone https://github.com/PatelTirth25/nesEmulator
+```
+
+```bash
+cd nesEmulator 
+```
 
 ```bash
 npm i
@@ -13,6 +19,16 @@ npm i
 ```bash
 npm run dev 
 ```
+
+## Roms
+
+There are few roms available in below directory:
+
+```bash
+nesEmulator/src/emulator/roms/
+```
+
+Not all games are supported.
 
 ## Robo-Ninja Climb Game hack
 
